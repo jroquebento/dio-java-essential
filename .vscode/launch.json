@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Soma",
+            "request": "launch",
+            "mainClass": "Soma",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "Multiplicacao",
+            "request": "launch",
+            "mainClass": "Multiplicacao",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "teste",
             "request": "launch",
             "mainClass": "teste",
