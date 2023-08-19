@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "CaixaEletronico",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
