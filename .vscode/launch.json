@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploForEach",
+            "request": "launch",
+            "mainClass": "ExemploForEach",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "ExemploForArray",
+            "request": "launch",
+            "mainClass": "ExemploForArray",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "ExemploFor",
             "request": "launch",
             "mainClass": "ExemploFor",
