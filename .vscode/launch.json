@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlanoOperadora",
+            "request": "launch",
+            "mainClass": "PlanoOperadora",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "SistemaMedida",
+            "request": "launch",
+            "mainClass": "SistemaMedida",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "OperadorTernario",
             "request": "launch",
             "mainClass": "OperadorTernario",
