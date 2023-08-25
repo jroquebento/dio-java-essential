@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculoForca",
+            "request": "launch",
+            "mainClass": "CalculoForca",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "PulandoNomes",
+            "request": "launch",
+            "mainClass": "PulandoNomes",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "PedraPapelAtaque",
             "request": "launch",
             "mainClass": "PedraPapelAtaque",
