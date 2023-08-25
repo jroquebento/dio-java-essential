@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OperadorTernario",
+            "request": "launch",
+            "mainClass": "OperadorTernario",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "ResultadoEscolar",
