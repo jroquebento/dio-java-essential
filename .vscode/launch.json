@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploBreakContinue",
+            "request": "launch",
+            "mainClass": "ExemploBreakContinue",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "ExemploForEach",
             "request": "launch",
             "mainClass": "ExemploForEach",
