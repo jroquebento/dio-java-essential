@@ -8,4 +8,4 @@ O sistema recebe dois parâmetros via terminal que representam dois números int
 
 - Os parâmetros devem conter apenas números inteiros. Caso seja informado um caractere especial ou um valor com casas decimais o sistema lança a InputMismatchException contendo a frase "Apenas números inteiros são aceitos nos parâmetros!".
 
-- Se algum dois valores forem 0 ou negativos o sistema mostra a mensagem "Os parâmetros precisam ser maiores do que 0."
+- Se algum dos dois valores forem 0 ou negativos o sistema mostra a mensagem "Os parâmetros precisam ser maiores do que 0."
