@@ -5,7 +5,7 @@ public class CalculoForca {
         Scanner leitor = new Scanner(System.in);
         int C = leitor.nextInt();
         String nome;
-        int N;
+        int N = 0;
 
         for(int i = 0;i < C; i++){
             nome = leitor.next();
@@ -18,5 +18,7 @@ public class CalculoForca {
                 System.out.println("N");
             }
         }
+        System.out.println(N);
+        leitor.close();
     }
 }

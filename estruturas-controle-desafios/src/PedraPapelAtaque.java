@@ -34,5 +34,6 @@ public class PedraPapelAtaque {
                 System.out.println("Sem ganhador");
             }
         }
+        leitor.close();
     }
 }

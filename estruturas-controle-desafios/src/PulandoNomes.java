@@ -12,5 +12,6 @@ public class PulandoNomes {
                 System.out.println(nomes[i]);
             System.out.println("");
         }
+        sc.close();
     }
 }
