@@ -5,20 +5,23 @@ public class Contador {
         Scanner terminal = new Scanner(System.in);
        
         try {
-            System.out.println("");
-            System.out.print("Digite o primeiro parâmetro: ");
+            System.out.print("\nDigite o primeiro parâmetro: ");
             int parametroUm = terminal.nextInt();
             System.out.print("Digite o segundo parâmetro: ");
             int parametroDois = terminal.nextInt();
-            contar(parametroUm,parametroDois);
+            if(parametroUm > 0 && parametroDois > 0){
+                contar(parametroUm,parametroDois);
+            }
+            else{
+                System.out.println("\nOs parâmetros precisam ser maiores do que 0.");
+            }
+            
         } 
         catch (ParametrosInvalidosException exception) {
-            System.out.println("");
-            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.out.println("\nO segundo parâmetro deve ser maior que o primeiro");
         }
         catch(InputMismatchException exception){
-            System.out.println("");
-            System.out.println("Apenas números inteiros são aceitos nos parâmetros!");
+            System.out.println("\nApenas números inteiros são aceitos nos parâmetros!");
         }
 
         terminal.close();
