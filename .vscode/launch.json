@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComputadorPedrinho",
+            "request": "launch",
+            "mainClass": "ComputadorPedrinho",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "Autodromo",
             "request": "launch",
             "mainClass": "Autodromo",
