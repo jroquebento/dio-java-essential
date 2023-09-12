@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fabrica",
+            "request": "launch",
+            "mainClass": "estabelecimento.Fabrica",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
             "name": "ComputadorPedrinho",
             "request": "launch",
             "mainClass": "ComputadorPedrinho",
