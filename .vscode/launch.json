@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "me.dio.Main",
+            "projectName": "dio-java-essential_bd977c99"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "one.digitalinnovation.Main",
             "projectName": "dio-java-essential_bd977c99"
         },
